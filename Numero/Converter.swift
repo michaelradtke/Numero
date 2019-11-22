@@ -53,7 +53,6 @@ class Converter {
         localNumber = localNumber - item.number
       }
     }
-
     return result
   }
   
