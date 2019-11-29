@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18B65CBE20C09F3300BFC903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B65CBD20C09F3300BFC903 /* LaunchScreen.storyboard */; };
+		2782C8932391399A001B7C41 /* ci.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2782C8922391399A001B7C41 /* ci.sh */; };
 		3052E856201040F500F6F30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E855201040F500F6F30B /* AppDelegate.swift */; };
 		3052E858201040F500F6F30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E857201040F500F6F30B /* ViewController.swift */; };
 		3052E85B201040F500F6F30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3052E859201040F500F6F30B /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		18B65CBD20C09F3300BFC903 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2782C8922391399A001B7C41 /* ci.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ci.sh; sourceTree = "<group>"; };
 		3052E852201040F500F6F30B /* Numero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3052E855201040F500F6F30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3052E857201040F500F6F30B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		3052E849201040F500F6F30B = {
 			isa = PBXGroup;
 			children = (
+				2782C8922391399A001B7C41 /* ci.sh */,
 				3052E854201040F500F6F30B /* Numero */,
 				3052E869201040F500F6F30B /* NumeroTests */,
 				3052E853201040F500F6F30B /* Products */,
@@ -195,6 +198,7 @@
 			files = (
 				18B65CBE20C09F3300BFC903 /* LaunchScreen.storyboard in Resources */,
 				3052E85D201040F500F6F30B /* Assets.xcassets in Resources */,
+				2782C8932391399A001B7C41 /* ci.sh in Resources */,
 				3052E85B201040F500F6F30B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
